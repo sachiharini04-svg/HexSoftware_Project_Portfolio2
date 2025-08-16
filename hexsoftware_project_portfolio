@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body 
+     { 
+        font-family: Arial, sans-serif; margin: 0; padding: 0; 
+    }
+    header 
+    { 
+        background: #333; color: white; padding: 1rem; text-align: center; 
+    }
+    nav a 
+    { 
+        color: white; margin: 0 10px; text-decoration: none; 
+    }
+    section 
+    { 
+        padding: 10px; max-width: 800px; margin: auto; 
+    }
+    
+    h2 
+    { 
+        border-bottom: 2px solid #333; padding-bottom: 2px; 
+    }
+    .skill, .experience 
+    { list-style: none; padding: 0; 
+    }
+    .skill li, .experience li 
+    {
+         margin-bottom: 8px; 
+    }
+    footer 
+    { background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      
+      <a href="#bio">Bio</a>
+      <a href="#skill">Skill</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+
+  <section id="bio">
+    <h2>Bio</h2>
+    <p>Hello Iam Sachitha a web developer who is 
+        passionate about creating clean and user-friendly websites so that users can access easily.</p>
+  </section>
+
+  <section id="skill">
+    <h2>Skill</h2>
+    <ul class="skill">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+      <p>Website creation for an oldage home as a Freelancer</p>
+      <p>Web Developer Intern at Dotcom Infoway Company for 1 month(May 2024)</p>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: sachitha@gmail.com</p>
+    <p>Phone: 8667223219</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>
